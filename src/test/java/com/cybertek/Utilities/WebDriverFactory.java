@@ -6,17 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class WebDriverFactory {
-    public static void main(String[] args) {
 
-
-//TASK: NEW METHOD CREATION
-//   Method name: getDriver
-//   Static method
-//   Accepts string argument: browserType --> will determine what browser opens
-//       -> if "chrome" opens chrome browser
-//       -> if "firefox" opens firefox browser
-//   return type: WebDriver
-    }
 
     public static WebDriver getDriver(String browserType){
         if (browserType.equalsIgnoreCase("chrome")){
@@ -36,6 +26,3 @@ public class WebDriverFactory {
 
 
 }
-
-
-
